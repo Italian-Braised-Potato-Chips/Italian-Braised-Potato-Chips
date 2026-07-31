@@ -1,10 +1,26 @@
 name: Living scene
+
 on:
   schedule:
     - cron: "23 */3 * * *"
   workflow_dispatch:
+    inputs:
+      weather:
+        description: "Pin the weather — clear/clouds/rain/snow/fog/storm. Blank uses the real forecast."
+        required: false
+        default: ""
+      season:
+        description: "Pin the season — spring/summer/autumn/winter. Blank uses today's date."
+        required: false
+        default: ""
+      force:
+        description: "Re-render even if the scene has not changed"
+        required: false
+        default: "false"
+
 permissions:
   contents: write
+
 jobs:
   scene:
     runs-on: ubuntu-latest
@@ -12,14 +28,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Sync sky with real weather and season
-        run: |
-          python3 scripts/gen_scene.py
-          if ! git diff --quiet; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -A
-            git commit -m "🌦 scene sync: $(cat .github/scene-state)"
-            git pull --rebase origin main
-            git push origin main
-          fi
+
+      - uses: yuki4266/living-scene@v1
+        with:
+          lat: "35.99"          # Durham, NC
+          lon: "-78.90"
+          tz: America/New_York
+          weather: ${{ inputs.weather }}
+          season: ${{ inputs.season }}
+          force: ${{ inputs.force }}
+          commit-message: "🌦 scene sync: {state}"
