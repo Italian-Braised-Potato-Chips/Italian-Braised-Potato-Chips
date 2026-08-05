@@ -57,6 +57,15 @@
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Italian-Braised-Potato-Chips/Italian-Braised-Potato-Chips/output/github-contribution-grid-snake.svg" />
 </div>
 
+<br/>
+
+<!-- 新增邮箱行 -->
+<div align="center">
+<h3>📮 Email: 1463339677@qq.com</h3>
+</div>
+
+<br/>
+
 <!-- ============ Footer (a cat lives here) ============ -->
 <div align="center">
   <picture>
