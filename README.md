@@ -21,7 +21,7 @@
 <!-- ============ Research Directions 研究方向区域 ============ -->
 <div align="center" style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
 <img src="chips/label-0.svg" alt="Research Directions">
-<img src="chips/ZSF.svg" alt="Zero-Shot Fault Diagnosis">
+<img src="chips/ZSF.svg" alt="Fault Diagnosis">
 <img src="chips/RUL.svg" alt="Remaining Useful Life Prediction">
 <img src="chips/DT.svg" alt="Digital Twin">
 </div>
