@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232.5 45" width="232.5" height="45" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
 <title>Research Directions</title>
-<g transform="translate(21,22.5)">
+<g transform="translate(21,18)">
   <g>
     <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
     <circle cx="0" cy="-9.75" r="5.1" fill="#F4795B"/>
@@ -11,5 +11,5 @@
   </g>
   <circle r="4.2" fill="#E2542F"/>
 </g>
-<text x="45" y="28.5" font-size="16.5" letter-spacing="2.25" fill="#8b949e">Research Directions</text>
+<text x="45" y="24" font-size="16.5" letter-spacing="2.25" fill="#8b949e">Research Directions</text>
 </svg>
