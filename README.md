@@ -19,8 +19,9 @@
 
 <!-- ============ Research Directions 研究方向区域 ============ -->
 <div align="center" style="font-size:0;margin-bottom:0;">
-  <!-- 第一张大图，向下微调匹配小标签中线 -->
-  <img src="chips/label-0.svg" alt="Research Directions" width="230" style="vertical-align:middle;margin-top:6px;">
+  <span style="display:inline-block;transform: translateY(50px);vertical-align:middle;">
+    <img src="chips/label-0.svg" alt="Research Directions" width="230">
+  </span>
   <img src="chips/ZSF.svg" alt="Fault Diagnosis" style="margin-right:-6px;vertical-align:middle;">
   <img src="chips/RUL.svg" alt="Remaining Useful Life Prediction" style="vertical-align:middle;">
   <img src="chips/DT.svg" alt="Digital Twin" style="margin-right:-4px;vertical-align:middle;">
