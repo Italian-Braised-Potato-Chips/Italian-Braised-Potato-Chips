@@ -21,7 +21,7 @@
 <!-- ============ Research Directions 研究方向区域 ============ -->
 <div align="center">
 <!-- 第一行 -->
-<img src="chips/label-0.svg" alt="FAULT DIAGNOSIS" />
+<img src="chips/label-0.svg" alt="Research Directions" />
 <img src="chips/claude.svg" alt="零样本故障诊断" />
 <img src="chips/googlegemini.svg" alt="小样本故障诊断" />
 <img src="chips/deepseek.svg" alt="终身学习故障诊断" />
