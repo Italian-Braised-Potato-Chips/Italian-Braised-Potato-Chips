@@ -31,9 +31,9 @@ jobs:
 
       - uses: yuki4266/living-scene@v1
         with:
-          lat: "35.99"          # Durham, NC
-          lon: "-78.90"
-          tz: America/New_York
+          lat: "30.67"          # 成都纬度
+          lon: "104.07"         # 成都经度
+          tz: Asia/Shanghai     # 东八区北京时间
           weather: ${{ inputs.weather }}
           season: ${{ inputs.season }}
           force: ${{ inputs.force }}
